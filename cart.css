@@ -289,10 +289,6 @@ ol.cart-header li.completed a, ol.cart-header li.completed strong {
   border-color: #2D37B4;
 }
 
-.ordering-process input[type="checkbox"] + label, .ordering-process input[type="radio"] + label {
-  padding: 2rem 0 2rem 2rem;
-}
-
 .ordering-process .radio-wrapper input[type="checkbox"]:checked + label::before, .ordering-process .radio-wrapper input[type="radio"]:checked + label::before {
   border-color: #2D37B4;
 }
@@ -307,6 +303,12 @@ ol.cart-header li.completed a, ol.cart-header li.completed strong {
 
 .ordering-process h4 {
   margin-top: 0;
+}
+
+.shipping-billing-table input[type="checkbox"] + label, .shipping-billing-table input[type="radio"] + label,
+.co-payment-method input[type="checkbox"] + label,
+.co-payment-method input[type="radio"] + label {
+  padding: 2rem 0 2rem 2rem;
 }
 
 .cart-content + .cart-content {
@@ -373,10 +375,6 @@ ol.cart-header li.completed a, ol.cart-header li.completed strong {
 
 .in-krok-2 .form-group input.form-control {
   width: 100%;
-}
-
-.in-krok-2 .form-group:first-of-type > label {
-  display: none;
 }
 
 .in-krok-2 .form-group label {

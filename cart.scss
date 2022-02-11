@@ -298,9 +298,6 @@ ol.cart-header {
         padding-right: 0;
         border-color: $related-border;
     }
-    input[type="checkbox"] + label, input[type="radio"] + label {
-        padding: 2rem 0 2rem 2rem;
-    }
     .radio-wrapper input[type="checkbox"]:checked + label::before, .radio-wrapper input[type="radio"]:checked + label::before {
          border-color: $related-border;
     }
@@ -312,6 +309,13 @@ ol.cart-header {
     }
     h4 {
         margin-top: 0;
+    }
+}
+
+.shipping-billing-table,
+.co-payment-method {
+    input[type="checkbox"] + label, input[type="radio"] + label {
+        padding: 2rem 0 2rem 2rem;
     }
 }
 
@@ -373,9 +377,9 @@ ol.cart-header {
         input.form-control {
             width: 100%;
         }
-        &:first-of-type > label {
-            display: none;
-        }
+        // &:first-of-type > label {
+        //     display: none;
+        // }
         label {
             width: auto;
         }
